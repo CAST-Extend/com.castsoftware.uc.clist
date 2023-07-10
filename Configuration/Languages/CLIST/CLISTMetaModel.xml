@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<metaModel file_level="client" file_no="127">
+<!-- Version: 1.0.0 -->
+<!-- Categories --> 
+  <category name="APM CLIST Module" rid="2127000">
+    <description>CLIST</description>
+    <inheritedCategory name="APM Client Modules"/>
+  </category>
+  <category name="APM CLIST Artifacts" rid="2127001">
+    <description>CLIST Artifacts</description>
+    <inheritedCategory name="APM Client Language Artifacts"/>
+  </category>
+  <category name="CLIST" rid="2127002">
+    <description>CLIST</description>
+    <attribute name="extensions" stringValue="*.clist;"/>
+    <inheritedCategory name="UniversalLanguage"/>
+    <inheritedCategory name="CsvLanguage"/>
+  </category>
+  <type name="CLISTProject" rid="2127003">
+    <description>CLIST Project</description>
+    <inheritedCategory name="CLIST"/>
+    <inheritedCategory name="APM CLIST Module"/>
+    <inheritedCategory name="UAProject"/>
+ </type>
+  <type name="CLIST_SUBSET" rid="2127099">
+    <description>CLIST Subset</description>
+    <inheritedCategory name="CLIST"/>
+    <inheritedCategory name="APM CLIST Module"/>
+    <inheritedCategory name="PROJECT_SUBSET"/>
+  </type>
+  <type name="EnlightenCLIST" rid="2127004">
+    <description>CLIST</description>
+    <tree parent="EnlightenUniversalObjects" category="EnlightenTree"/>
+  </type>
+	
+	<type name="CLISTProgram" rid="2127005">
+		<description>CLIST Program</description>
+		<inheritedCategory name="CLIST"/>
+		<inheritedCategory name="UAObject"/>
+        <inheritedCategory name="CAST_SQL_MetricableQuery" />
+		<inheritedCategory name="APM CLIST Artifacts"/>
+		<inheritedCategory name="identification"/>
+		<inheritedCategory name="persistent"/>
+		<inheritedCategory name="bookmark"/>
+		<inheritedCategory name="POSITIONABLE"/>
+		<inheritedCategory name="metric"/>
+		<inheritedCategory name="METRICABLE"/>
+		<inheritedCategory name="EnlightenBrowsable"/>
+		<inheritedCategory name="EnlightenGraphable"/>
+		<inheritedCategory name="WithEnlightenProperties"/>
+		<inheritedCategory name="ESCALATION_ALL"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="CastSystemViews"/>	
+		<tree parent="sourceFile" category="amtParentship"/>
+		<tree parent="EnlightenCLIST" category="EnlightenTree"/>
+	</type>	
+</metaModel>
