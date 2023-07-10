@@ -9,9 +9,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://extend.castsoftware.com/V2/Licenses/Cast-Licence-UserCommunity-1.0.html</licenseUrl>
     <projectUrl>https://github.com/CAST-Extend/com.castsoftware.uc.clist/wiki</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/CAST-Extend/resources/master/com.castsoftware.sqlanalyzer.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/CAST-Extend/com.castsoftware.uc.clist/master/CLIST.PNG</iconUrl>
     <description>This extension can be installed to enable the import of CLIST files. Function Point counting is not supported. Sizing and Quality are not supported. The extension is based on the CAST Universal Analyzer.</description>
-    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.uc.clist/wiki#111change-log</releaseNotes>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.uc.clist/wiki#version-100-release-notes</releaseNotes>
     <tags>CASTUserCommunity CAIP8.3 CAIP8.3.x CLIST ZOS os390 ibm techno:mainframe</tags>
     <dependencies>
       <dependency id="CAIP" version="8.3.3" />
